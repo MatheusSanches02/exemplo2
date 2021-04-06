@@ -1,13 +1,30 @@
-numeroConta = int(input("Digite um número com 3 digitos: "))
-numeroInverso = int(input("Digite o iverso do mesmo numero digitado acima: "))
+conta = int(input("Informe o número da sua conta: "))
 
+digito1 = conta//100
 
-soma = numeroConta + numeroInverso
+digito2 = (conta%100)//10
 
-print("Escreva o resultado da soma em suas devidas posições")
-primeiro = int(input("Qual foi o primeiro numero obtido na soma? "))
-segundo = int(input("Qual foi o segundo numero obtido na soma? "))
-terceiro = int(input("Qual foi o terceiro numero obtido na soma? "))
+digito3 = (conta%100)%10
 
-multiplicacao = (primeiro * 1)+ (segundo * 2) + (terceiro * 3)
+inverso = str(digito3)+str(digito2)+str(digito1)
+
+print("O inverso da conta é: ",inverso)
+
+soma = conta + int(inverso)
+
+print("Soma da conta com o inverso dela:", soma)
+
+digito2 = soma // 100
+
+digito3 = (soma % 100) // 10
+
+digito4 = (soma % 100) % 10
+
+if soma > 999:
+    digito1 = soma // 1000
+    mult = digito1 * 1 + digito2 * 2 + digito3 * 3 + digito4 * 4
+else:
+    mult = digito2 * 1 + digito3 * 2 + digito4 * 3
+
+print("Código verificador é: " + str(mult%10))
 

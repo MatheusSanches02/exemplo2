@@ -1,7 +1,4 @@
-print("Tabela de preços: ")
-print("Norte Ida: R$280  Norte ida e volta: R$400")
-print("Nordeste ida: R$380  Noredeate ida e volta: R$628")
-print("Centro-Oeste ida: R$620  Centro-Oeste ida e volta: R$1100")
+print("Não atendemos as regiões sul e sudeste")
 
 print("Digite 1 para norte ida, digite 2 para norte ida e volta")
 print("Digite 3 para nordeste ida, digite 4 para nordeste ide e volta")
