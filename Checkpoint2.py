@@ -29,7 +29,7 @@ while cupomQuestion == False:
             descontoTotal = descontoTotal + 10
             cupomQuestion = True
         elif cupomName == 'BORALA5':
-            descontoTotal += 10
+            descontoTotal += 5
             cupomQuestion = True
         else:
             print("Cupom inválido!")
