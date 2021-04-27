@@ -1,6 +1,3 @@
-print("-"*30)
-print("Sequencia Fibonacci")
-print("-"*30)
 
 unknowTerm = int(input("Qual termo você quer descobrir? "))
 firstTerm = 0
@@ -17,6 +14,8 @@ elif unknowTerm > 2:
         secondTerm = thirdTerm
         cont += 1
     print(thirdTerm)
+
+
   
 
 
