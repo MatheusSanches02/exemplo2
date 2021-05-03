@@ -1,10 +1,10 @@
 
 unknowTerm = int(input("Qual termo você quer descobrir? "))
-firstTerm = 0
+firstTerm = 1
 secondTerm = 1
-cont = 2
+cont = 3
 if unknowTerm == 1:
-    print(0)
+    print(1)
 elif unknowTerm == 2:
     print(1)
 elif unknowTerm > 2:
